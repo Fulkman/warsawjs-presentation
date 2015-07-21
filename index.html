@@ -1,135 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>WarsawJS Presentation Template</title>
+	<title>WarsawJS Presentation</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=792, user-scalable=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=792, user-scalable=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="themes/warsawjs/styles/ribbon-theme.css">
-    <link rel="stylesheet" href="themes/warsawjs/styles/warsawjs-theme.css">
+  <link rel="stylesheet" href="themes/warsawjs/styles/ribbon-theme.css">
+  <link rel="stylesheet" href="themes/warsawjs/styles/warsawjs-theme.css">
 </head>
 <body class="list">
-    <header class="caption">
-        <h1>WarsawJS Presentation Template</h1>
-        <p>We talk about JavaScript. Each month in Warsaw, Poland.</p>
-    </header>
 
-    <section class="slide front-page">
-        <div>
-            <div class="logo">
-                <img src="themes/warsawjs/pictures/logo.png">
-            </div>
-            <div class="content">
-                <h2>WarsawJS Presentation Template</h2>
-                <p>Author Name <a href="http://twitter.com/author">@author</a>
-            </div>
-        </div>
-    </section>
+	<header class="caption">
+    <h1>WarsawJS Presentation</h1>
+    <p>We talk about JavaScript. Each month in Warsaw, Poland.</p>
+	</header>
 
-    <section class="slide">
-        <div>
-            <h2>Plain Text on Your Slides</h2>
-
-            <p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco
-                laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in
-                reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.
-            </p>
-        </div>
-    </section>
-
-    <section class="slide">
-        <div>
-            <h2>All Kind of Lists</h2>
-            <ol>
-                <li>Simple lists are marked with bullets</li>
-                <li>Ordered lists begin with a number</li>
-                <li>You can even nest lists one inside another
-                    <ul>
-                        <li>Or mix their types</li>
-                        <li>But do not go too far</li>
-                        <li>Otherwise audience will be bored</li>
-                    </ul>
-                </li>
-                <li>Look, seven rows exactly!</li>
-            </ol>
-        </div>
-    </section>
-
-    <section class="slide">
-        <div>
-            <h2>JavaScript Samples</h2>
-            <pre>
-                <code><mark class="comment">// Crockford style IIFE</mark></code>
-                <code>(function () {</code>
-                <code>  var <mark>someVar</mark> = 'value';</code>
-                <code>  console.<mark class="important">log</mark>(someVar);</code>
-                <code>}());</code>
-            </pre>
-        </div>
-    </section>
-    <section class="slide">
-        <div>
-            <h2>Even Tables</h2>
-            <table>
-                <tr>
-                    <th scope="col">Locavore</th>
-                    <th>Umami</th>
-                    <th>Helvetica</th>
-                    <th>Vegan</th>
-                </tr>
-                <tr>
-                    <th scope="row">Fingerstache</th>
-                    <td>Kale</td>
-                    <td>Chips</td>
-                    <td>Keytar</td>
-                </tr>
-                <tr>
-                    <th scope="row">Sriracha</th>
-                    <td>Gluten-free</td>
-                    <td>Ennui</td>
-                    <td>Keffiyeh</td>
-                </tr>
-                <tr>
-                    <th scope="row">Thundercats</th>
-                    <td>Jean</td>
-                    <td>Shorts</td>
-                    <td>Biodiesel</td>
-                </tr>
-                <tr>
-                    <th scope="row">Terry</th>
-                    <td>Richardson</td>
-                    <td>Swag</td>
-                    <td>Blog</td>
-                </tr>
-            </table>
-            <p>It’s good to have information organized.</p>
-        </div>
-    </section>
-
-    <section class="slide cover">
-        <div>
-            <img src="./themes/warsawjs/pictures/bigphoto.jpg" alt="">
-        </div>
-    </section>
-
-    <section class="slide shout">
-        <div>
-            <h2>See you next month at WarsawJS</h2>
-        </div>
-    </section>
-
-    <p class="badge"><a href="https://github.com/warsawjs/presentation-template">Fork me on Github</a></p>
-
-    <div class="progress">
-        <div></div>
+	<section class="slide front-page">
+    <div>
+      <div class="logo">
+        <img src="themes/warsawjs/pictures/logo.png">
+      </div>
+      <div class="content">
+        <h2>Mobile application. Where to start?</h2>
+        <p>Tomasz Pietrzak <a href="http://twitter.com/fulkman">@Fulkman</a>
+      </div>
     </div>
+	</section>
+	<section class="slide grow">
+    <div>
+      <h2>Introduction</h2>
+      <ul>
+        <li class="next">What is a hybrid application?</li>
+        <li class="next">UI Frameworks</li>
+        <li class="next">The Command-Line Interface</li>
+        <li class="next">Expansion capabilities</li>
+        <li class="next">Conclusion</li>
+      </ul>
+    </div>
+	</section>
 
-    <script src="vendor/gamepad/gamepad.js"></script>
-    <script src="vendor/shower/shower.js"></script>
-    <script src="vendor/shower/shower.gamepad.js"></script>
+	<section class="slide">
+	  <div>
+	    <h2>What is a hybrid application?</h2>
+	    <p>
+	      A hybrid application is a application built with web development skills: HTML5, CSS, JavaScript
+	      that are later packages into a native container.
+	    </p>
+	  </div>
+	</section>
+	<section class="slide">
+    <div>
+      <h2>What is a hybrid application?</h2>
+      <p>
+        <mark>What exactly does that mean?</mark>
+        <br/><br/>
+	      Why hire a developer for each platform when you can hire one developer and target all of them
+	      through HTML, CSS, and JavaScript? Well, the reality is a bit more complicated...
+      </p>
+    </div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>What is a hybrid application?</h2>
+			<p>
+				<mark>Advantages</mark>
+			</p>
+			<ul>
+				<li>It is mostly cross-platform out of the box</li>
+				<li>Give you the opportunity to develop your ideas fast, real fast</li>
+				<li>Any web developer, in any level, and after short period of learning can become app developers</li>
+			</ul>
+		</div>
+	</section>
+	<section class="slide">
+    <div>
+      <h2>What is a hybrid application?</h2>
+      <p>
+        <mark>What about performance?</mark>
+        <br/><br/>
+        Unfortunately, none of the frameworks I’m about to talk about can manage to give full native feel out
+        of the box like you get when you develop...well...native. They are definitely on their way there.
+      </p>
+    </div>
+	</section>
+
+	<section class="slide">
+    <div>
+      <h2>UI Frameworks</h2>
+      <p>
+        Recently there has been fast growth in hybrid applications and mobile development, and many companies
+        figured it out. In the last few years many UI frameworks joined the list, and many more are on the way,
+        giving us a better, more efficient, more performant hybrid experience.
+      </p>
+    </div>
+	</section>
+	<section class="slide">
+    <img src="themes/warsawjs/pictures/ionic.png" alt="" class="place r">
+    <div>
+      <h2>UI Frameworks</h2>
+	    <mark>Ionic Framework</mark>
+	    <br/><br/>
+	    <figure>
+		    <blockquote>
+			    <p>
+				    Advanced HTML5 mobile development framework and SDK.<br />
+				    Build incredible mobile apps with web technologies you already know and love. Best friends with AngularJS.
+			    </p>
+		    </blockquote>
+		    <a href="http://ionicframework.com/">http://ionicframework.com/</a>
+	    </figure>
+    </div>
+	</section>
+	<section class="slide">
+    <img src="themes/warsawjs/pictures/onsen.png" alt="" class="place r">
+		<div>
+			<h2>UI Frameworks</h2>
+			<mark>OnsenUI</mark>
+			<br/><br/>
+			<figure>
+				<blockquote>
+					<p>
+						Custom Elements-Based HTML5 UI Framework for Building Your Mobile Front End.
+					</p>
+				</blockquote>
+				<a href="http://onsen.io/">http://onsen.io/</a>
+			</figure>
+		</div>
+	</section>
+	<section class="slide">
+    <img src="themes/warsawjs/pictures/maui.png" alt="" class="place r">
+		<div>
+			<h2>UI Frameworks</h2>
+			<mark>Mobile Angular UI</mark>
+			<br/><br/>
+			<figure>
+				<blockquote>
+					<p>
+						Mobile Angular UI is an HTML5 mobile UI framework that will let you use Angular Js and Bootstrap 3
+						for mobile app development.
+					</p>
+				</blockquote>
+				<a href="http://mobileangularui.com/">http://mobileangularui.com/</a>
+			</figure>
+		</div>
+	</section>
+	<section class="slide">
+    <img src="themes/warsawjs/pictures/famous.png" alt="" class="place r">
+		<div>
+			<h2>UI Frameworks</h2>
+			<mark>Famo.us + AngularJS</mark>
+			<br/><br/>
+			<figure>
+				<blockquote>
+					<p>
+						The Famous Engine is a free and open source JavaScript rendering engine.
+					</p>
+				</blockquote>
+				<a href="http://famous.org/">http://famous.org/</a>
+			</figure>
+		</div>
+	</section>
+	<section class="slide">
+    <div>
+      <h2>UI Frameworks</h2>
+      <p>
+        <mark>Is that all i should know?</mark>
+        <br/><br/>
+        Of course not!
+      </p>
+    </div>
+	</section>
+
+	<section class="slide">
+    <div>
+      <h2>The Command-Line Interface</h2>
+	    <p>
+		    <mark>Installing the Cordova CLI</mark>
+		    <br /><br />
+		    The Cordova command-line tool is distributed as an npm package in a ready-to-use format. It is not necessary to compile it from source.
+	    </p>
+	    <pre>
+        <code>npm install -g cordova <mark>[ionic]</mark></code>
+      </pre>
+    </div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>The Command-Line Interface</h2>
+			<p>
+				<mark>Create the App</mark>
+				<br /><br />
+				Go to the directory where you maintain your source code, and run a command such as the following:
+			</p>
+      <pre>
+        <code>cordova create warsawjs com.warsawjs.helloworld WarsawJS</code>
+	      <code class="next">ionic start <mark class="next">tabs</mark> --id="com.warsawjs.helloworld" \<br/>  --appname="WarsawJS" warsawjs</code>
+      </pre>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>The Command-Line Interface</h2>
+			<p>
+				<mark>Add Platforms</mark>
+				<br /><br />
+				Before running any command-line tools, you need to install SDKs for each platform you wish to target.
+			</p>
+      <pre>
+        <code>cordova platform add ios</code>
+	      <code class="next">ionic platform add ios</code>
+      </pre>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>The Command-Line Interface</h2>
+			<p>
+				<mark>Develop the App</mark>
+				<br /><br />
+				Start a local development server for app dev/testing.
+			</p>
+      <pre>
+        <code>cordova serve</code>
+	      <code class="next">ionic serve</code>
+      </pre>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>The Command-Line Interface</h2>
+			<p>
+				<mark>Run it</mark>
+				<br /><br />
+				Use this to build, test, and run your apps.
+			</p>
+      <pre>
+        <code>cordova build ios</code>
+	      <code>cordova run ios --device|--emulator</code>
+	      <code class="next">ionic build ios</code>
+	      <code class="next">ionic run ios --device|--emulator</code>
+      </pre>
+		</div>
+	</section>
+
+	<section class="slide">
+    <div>
+      <h2>Expansion capabilities</h2>
+	    <p>
+		    A plugin is a package of injected code that allows the Cordova webview within which the app renders to
+		    communicate with the native platform on which it runs. Plugins provide access to device and platform
+		    functionality that is ordinarily unavailable to web-based apps.
+	    </p>
+    </div>
+	</section>
+	<section class="slide shout">
+    <div>
+      <h2>Conclusion</h2>
+    </div>
+	</section>
+	<section class="slide shout">
+    <div>
+      <h2>Thank you!</h2>
+    </div>
+	</section>
+
+	<p class="badge"><a href="https://github.com/warsawjs/presentation-template">Fork me on Github</a></p>
+
+	<div class="progress">
+    <div></div>
+	</div>
+
+	<script src="vendor/gamepad/gamepad.js"></script>
+	<script src="vendor/shower/shower.js"></script>
+	<script src="vendor/shower/shower.gamepad.js"></script>
 </body>
 </html>
