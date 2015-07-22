@@ -80,6 +80,7 @@
 
 .slide p {
   font-family: fira, sans-serif;
+  background: rgba(255,255,255,0.5);
 }
 
 .slide.shout h2 {
